@@ -11,3 +11,9 @@ is a directory that can be kept on a local file system or places on in blob stor
 
 rss supports serverless access to data on blob storage, currently only AWS S3 is supported, 
 but support for other cloud solutions is on the product roadmap. 
+
+rss requires Python 3.6 or better. 
+
+Use rss in your project today!
+
+pip install real-simple-seismic
