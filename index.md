@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# rss - Real Simple Seismic
 
-You can use the [editor on GitHub](https://github.com/VapeJordan/real-simple-seismic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Forget about SEGY - watch your seismic like frames in a movie.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+rss is a real simple way to ingest and access stacked 3d seismic data. Once ingested, 
+the seismic data is access slices, inlines, crosslines, time slices (todo) or in 
+3D chunks (todo). 
 
-### Markdown
+rss provides a command-line tool for ingesting SEGY data into rss format. The output 
+is a directory that can be kept on a local file system or places on in blob storage. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VapeJordan/real-simple-seismic/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+rss supports serverless access to data on blob storage, currently only AWS S3 is supported, 
+but support for other cloud solutions is on the product roadmap. 
